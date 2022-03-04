@@ -3,10 +3,6 @@
   body {
     box-sizing: border-box;
   }
-  
-   .first-view {
-    
-   }
    
    .header {
      width:100%;
@@ -31,5 +27,7 @@
         padding-right:0;
     }
      
-     
+    .main-wrraper {
+         
+    } 
 }

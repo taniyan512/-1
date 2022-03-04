@@ -1,5 +1,9 @@
 @media (max-width: 767px) {
   
+  body {
+    box-sizing:border-box;
+  }
+  
   .header-container {
     margin:0 20px;
     max-width:100%;
@@ -9,10 +13,18 @@
         background-image:none;
          padding-left: 0;
          padding-right: 0;
+         
      }
      
-     .main-wrpaper {
-       position:relative;
+     .main-wrraper {
+       width:100%;
+       margin-top: -45vw;
+       margin-left:0;
+       margin-right:0;
+       box-sizing:border-box;
+       padding-left:20px;
+       padding-right:20px;
+       max-width:none;
      }
   .main-view {
          display:block;
@@ -20,5 +32,51 @@
          
      }
      
+     .main-container {
+       width:100%;
+     }
      
+  .main-container-title {
+    text-align:center;
+    width:100%;
+  }   
+  
+  .main-photo {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:30px;
+    width:100%;
+  
+  }
+  
+  .photo1 {
+    width:27.5%;
+  }
+  
+  .photo2 {
+    width:40%;
+  }
+  
+  .photo3 {
+    width:27.5%;
+  }
+  
+  .main-buttons {
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    margin:0;
+  }
+  
+  .main-buttons a:first-child {
+    margin-bottom: 10px;
+  }
+  
+  .about {
+    flex-direction:column;
+  }   
+  
+  .about-potepan {
+    text-align:center;
+  }
 }
