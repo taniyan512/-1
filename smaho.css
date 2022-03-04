@@ -1,0 +1,24 @@
+@media (max-width: 767px) {
+  
+  .header-container {
+    margin:0 20px;
+    max-width:100%;
+  }
+  
+ .main {
+        background-image:none;
+         padding-left: 0;
+         padding-right: 0;
+     }
+     
+     .main-wrpaper {
+       position:relative;
+     }
+  .main-view {
+         display:block;
+         width:100%;
+         
+     }
+     
+     
+}
